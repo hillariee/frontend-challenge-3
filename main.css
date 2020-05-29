@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    --primary: hsl(179, 62%, 43%);
+    --accent: hsl(71, 73%, 54%);
+    --secondary: hsl(204, 43%, 93%);
+    --neutral: hsl(218, 22%, 67%);
+    /* typography */
+    --reg: 400;
+    --bold: 700;
+    --font: 'Karla', sans-serif;
+}
+
+
+.section-1{
+    grid-area: a;
+    /* text-align: left; */
+}
+
+.section-1 p{
+    overflow-wrap: break-word;
+    width: 20rem;
+}
+
+.section-2{
+    grid-area: b;
+}
+
+.section-3{
+    grid-area: c;
+}
+
+.title{
+    font-family: var(--font);
+    font-weight: var(--bold);
+    font-size: 1.8rem;
+}
+
+h3{
+    font-family: var(--font);
+    font-weight: var(--bold);
+    overflow-wrap: break-word;
+    width: 20rem;
+}
+
+p{
+    font-family: var(--font);
+    font-weight: var(--reg);
+}
+
+.section-3 p{
+    overflow-wrap: break-word;
+    width: 15rem;
+    /* margin-bottom: 0px; */
+    line-height: .6rem;  
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "a a a"
+    "b b b"
+    "c c c";
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
