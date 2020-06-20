@@ -115,5 +115,45 @@ p{
 }
 
 
+@media only screen and (min-width: 786px){
+
+    .section-1 p{
+        overflow-wrap: break-word;
+        width: 35rem;    
+    }
+
+    .section-1 h3{
+        overflow-wrap: none;
+        width: initial;
+    }
+
+    .section-2 button{
+        width: 250px;
+        font-weight: var(--reg);
+        padding: 15px 25px;
+    }
+
+    .section-2 h1{
+        font-size: 1.2rem;
+    }
+
+    .section-2{
+        padding: 15px 15px;
+    }
+
+    .section-3{
+        padding: 15px 15px 15px 30px;
+    }
+
+    .container{
+        display: grid;
+        justify-content: center;
+        grid-template-areas:
+        "a a a a"
+        "b b c c";
+    }
+}
+
+
 .attribution { font-size: 11px; text-align: center; margin: auto; }
 .attribution a { color: hsl(228, 45%, 44%); }
