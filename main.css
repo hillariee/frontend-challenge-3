@@ -129,28 +129,22 @@ p{
 
     .section-2 button{
         width: 250px;
-        font-weight: var(--reg);
+        font-weight: var(--bold);
         padding: 15px 25px;
     }
-
-    .section-2 h1{
-        font-size: 1.2rem;
-    }
-
-    .section-2{
-        padding: 15px 15px;
-    }
-
-    .section-3{
-        padding: 15px 15px 15px 30px;
+    .child{
+        padding: 15px 25px;;
     }
 
     .container{
         display: grid;
+        width: calc(100vw- 40px);
+        padding: 5px 20rem 5px 20rem;
         justify-content: center;
         grid-template-areas:
         "a a a a"
         "b b c c";
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
